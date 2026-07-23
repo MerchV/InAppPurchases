@@ -4,20 +4,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "InAppPurchase",
+    name: "InAppPurchases",
     platforms: [
         .macOS(.v26),
         .iOS(.v26)
     ],
     products: [
         .library(
-            name: "InAppPurchase",
-            targets: ["InAppPurchase"]
+            name: "InAppPurchases",
+            targets: ["InAppPurchases"]
         ),
     ],
     targets: [
         .target(
-            name: "InAppPurchase"
+            name: "InAppPurchases"
         ),
 
     ],

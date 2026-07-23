@@ -1,5 +1,5 @@
 //
-//  InAppPurchase.swift
+//  InAppPurchases.swift
 //
 //  Created on 2026-07-23.
 //
@@ -8,7 +8,7 @@ import Foundation
 import Observation
 import StoreKit
 
-@MainActor @Observable public final class InAppPurchase {
+@MainActor @Observable public final class InAppPurchases {
     
     public var boughtNonConsumable: Bool = false
     
